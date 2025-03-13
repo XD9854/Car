@@ -1,11 +1,3 @@
-# Car
-
-## **Начало**
-### **13.03.25**
-
-я создал класс Car и наследовал от него класс ElectoCar
-
-```javascript
 class Car{
     constructor(brand, model, year, volume){
         this.brand = brand
@@ -13,9 +5,12 @@ class Car{
         this.year = year
         this.volume = volume
 }
-};
+}
 
 class ElectoCar extends Car {
 
-};
-```
+}
+
+
+let a = new ElectoCar(1, 2, 3, 4)
+let b = new Car(1, 2, 3, 4)
