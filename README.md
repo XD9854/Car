@@ -39,4 +39,17 @@ addvolume() {
 }
 ```
 
+и к классу ElectoCar
 
+```javascript
+
+    addcharge() {
+        if(this.volume < 60){
+        this.volume + 9
+        console.log("Вы зарядили машину ", this.brand, " ", this.model, " на ", this.volume)
+        }else if(this.volume >= 60){
+            console.log("У машины полный заряд.", this.volume)
+        }
+    }
+    
+```
